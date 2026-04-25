@@ -5,8 +5,8 @@ export const config = {
     repo: process.env.GITHUB_REPO,
   },
   vercel: {
-    token: process.env.VERCEL_TOKEN,
-    projectId: process.env.VERCEL_PROJECT_ID,
+    token: process.env.VERCEL_TOKEN_PROJ,
+    projectId: process.env.VERCEL_PROJECT_ID_TARGET,
     teamId: process.env.VERCEL_TEAM_ID,
   },
 } as const
