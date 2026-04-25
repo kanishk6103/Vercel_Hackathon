@@ -69,7 +69,7 @@ export function DeploymentMonitor({
           <li className="px-5 py-6">
             <EmptyState
               title="Vercel not configured"
-              body="Set VERCEL_TOKEN_PROJ and VERCEL_PROJECT_ID_TARGET in .env.local to load deployments."
+              body="Set MOD_VERCEL_TOKEN_PROJ and MOD_VERCEL_PROJECT_ID_TARGET in .env.local to load deployments."
             />
           </li>
         )}
